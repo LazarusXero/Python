@@ -27,7 +27,7 @@ def wait_for_reset():
 # equivalent on the LEDs on the breadboard
 def display_led(key):
     print("You entered {0}". format(key))
-    print("Displaying binary equivalent on LEDs.")
+    print("Displaying binary equivalent on LEDs, which is {0:04b}".format(key))
     if key in led1set:
         led1.on()
     if key in led2set:
