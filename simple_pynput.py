@@ -1,4 +1,7 @@
 from pynput import keyboard
+import system from os
+
+
 
 def on_press(key):
     try:
