@@ -49,7 +49,7 @@ def clear_LED():
 
 
 def update_speed():
-    return round(pot1.value,2)/2
+    return ((round(pot1.value,2)/4)+0.1)
 
 def change_freq():
     freq_pot = int(50*round(pot2.value,2))
